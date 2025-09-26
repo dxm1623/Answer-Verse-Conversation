@@ -122,6 +122,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &359869717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359869719}
+  - component: {fileID: 359869718}
+  m_Layer: 0
+  m_Name: AcSocFiChoices
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &359869718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359869717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7598fdb9cbb025c4293438a58006c68f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroy_when_finished: 0
+  start_conversation_when_done: {fileID: 0}
+  cur_node: 0
+  active: 0
+  finished_conversation: 0
+--- !u!4 &359869719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359869717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 813422441}
+  - {fileID: 669988745}
+  m_Father: {fileID: 5650897268339712308}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &561909550
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,6 +206,340 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &611132187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 611132188}
+  - component: {fileID: 611132189}
+  m_Layer: 0
+  m_Name: Alter Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &611132188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611132187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5650897269328180436}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &611132189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611132187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b537df8b41db71745ae8383c66199796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  print_all_stats_to_console: 0
+  stat_type: 2
+  stat_name: Brad_Academic
+  set_number_to: 0
+  modify_number_amount: 0
+  set_bool_to: 1
+  set_string_to: 
+--- !u!1 &669988744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 669988745}
+  - component: {fileID: 669988746}
+  m_Layer: 0
+  m_Name: Show Choices
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &669988745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669988744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 359869719}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &669988746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669988744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1156cefd0bdce0a428360bd86ae0f9bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  randomizedOrder: 
+  Name_Of_Choice: 
+  Number_Of_Choices: 6
+  Hide_Dialogue_UI: 1
+  randomize_choices_order: 0
+  Localize_Choice_Text: 0
+  Button_Text:
+  - I want to be doing well in class, and staying on top of my work.
+  - I want to meet new people, make friends, and get involved.
+  - I want to be financially secure, and make professional connections.
+  - 
+  - 
+  - 
+  Has_Requirements: 000000000000000000000000000000000000000000000000
+  Requirement_Not_Met_Actions: 000000000000000000000000000000000000000000000000
+  Disabled_Text:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  Show_Choice_Was_Selected_Before: 010101000000
+  Choice_Been_Clicked_Before: 000000000000
+  default_selection: 0
+  Stat_Name:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  Requirement_Type: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Logic: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Float_Stat_Is: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Float_Compare_Value:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  Bool_Compare_Value: 000000000000000000000000000000000000000000000000000000000000000000000000
+  String_Compare_Value:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  String_Is: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Check_Null_Object:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Button_Events:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5650897269328180437}
+        m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
+        m_MethodName: Start_Conversation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5650897267651133245}
+        m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
+        m_MethodName: Start_Conversation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5650897267645254865}
+        m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
+        m_MethodName: Start_Conversation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls: []
+  - m_PersistentCalls:
+      m_Calls: []
+  - m_PersistentCalls:
+      m_Calls: []
+  use_image_native_size_for_buttons: 0
+  choice_button_images:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1001 &671758192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -291,6 +676,174 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &737589164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737589165}
+  - component: {fileID: 737589166}
+  m_Layer: 0
+  m_Name: Alter Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737589165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737589164}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5650897268420816501}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &737589166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737589164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b537df8b41db71745ae8383c66199796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  print_all_stats_to_console: 0
+  stat_type: 2
+  stat_name: Brad_Social
+  set_number_to: 0
+  modify_number_amount: 0
+  set_bool_to: 1
+  set_string_to: 
+--- !u!1 &813422440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813422441}
+  - component: {fileID: 813422442}
+  m_Layer: 0
+  m_Name: If
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813422441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813422440}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 472.58063, y: 265.49307, z: -0.07713207}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 359869719}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &813422442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813422440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d48bce613dd309642bef2c04df045b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  Number_Of_Conditions: 3
+  Conditions: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Stat_Name:
+  - Brad_Academic
+  - Brad_Social
+  - Brad_Financials
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  Bool_Compare_Value: 01010100000000000000
+  Float_Compare_Value:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  String_Compare_Value:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  String_Is: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Float_Stat_Is: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Check_Null_Object:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Check_Active_Object:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Logic: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Is_Condition_Met: 0
+  Action: 0
+  Conversation_To_Switch_To: {fileID: 5650897267526374276}
+  Node_To_Switch_To: {fileID: 0}
+  Continue_Conversation: 1
+  Custom_Actions:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1035914278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -393,6 +946,59 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4909160717508902567, guid: f2202413b007c06439e79e6c2eda6c6d, type: 3}
   m_PrefabInstance: {fileID: 1035914278}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1037861644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037861645}
+  - component: {fileID: 1037861646}
+  m_Layer: 0
+  m_Name: Alter Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1037861645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037861644}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5650897268210206511}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1037861646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037861644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b537df8b41db71745ae8383c66199796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  print_all_stats_to_console: 1
+  stat_type: 2
+  stat_name: Brad_Financials
+  set_number_to: 0
+  modify_number_amount: 0
+  set_bool_to: 1
+  set_string_to: 
 --- !u!1 &1077685378
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,7 +1271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 5686119972954536284}
+  start_conversation_when_done: {fileID: 5650897267859406730}
   cur_node: 0
   active: 0
   finished_conversation: 0
@@ -684,6 +1290,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1422871791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422871792}
+  - component: {fileID: 1422871793}
+  m_Layer: 0
+  m_Name: Alter Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1422871792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422871791}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5650897267867261868}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1422871793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422871791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b537df8b41db71745ae8383c66199796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  print_all_stats_to_console: 0
+  stat_type: 2
+  stat_name: Brad_Social
+  set_number_to: 0
+  modify_number_amount: 0
+  set_bool_to: 1
+  set_string_to: 
 --- !u!1 &1551158771
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +1419,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551158771}
   m_CullTransparentMesh: 1
+--- !u!1 &1675591752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675591753}
+  - component: {fileID: 1675591754}
+  m_Layer: 0
+  m_Name: Change Actor Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1675591753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675591752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5650897267859406731}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1675591754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675591752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44973f879676fe646a5d712c3f31e15a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  actor_name_from: 0
+  actor_name: Brad
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
+  fade_in_new_image: 0
+  lighten_actor: 0
+  bring_actor_to_front: 0
 --- !u!1001 &1823725679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6101,7 +6812,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &5650897267497446291
 AudioSource:
@@ -6262,7 +6973,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -6331,7 +7042,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -6526,7 +7237,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 30ea8f46ca8cc37499ad85869f2e9c3a, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -6595,7 +7306,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -6658,7 +7369,7 @@ Transform:
   - {fileID: 5650897269273525959}
   - {fileID: 5650897269168376966}
   m_Father: {fileID: 5650897268339712308}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5650897267550551346
 GameObject:
@@ -6810,7 +7521,7 @@ MonoBehaviour:
   fetch_localized_stat_value: 0
   dialogue_from: 0
   localized_key: 
-  text: More like 400, 450 at most.
+  text: More like 400... 450-ish at most.
   talking_beeps: {fileID: 0}
   darken_all_other_characters: 1
   bring_speaker_to_front: 1
@@ -7029,7 +7740,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -7388,7 +8099,7 @@ Transform:
   - {fileID: 5650897269279984607}
   - {fileID: 5650897268725160745}
   m_Father: {fileID: 5650897268339712308}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897267645254865
 MonoBehaviour:
@@ -7454,7 +8165,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897267645535846
 MonoBehaviour:
@@ -7472,7 +8183,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -7518,7 +8229,7 @@ Transform:
   - {fileID: 5650897267693848337}
   - {fileID: 5650897269072102843}
   m_Father: {fileID: 5650897268339712308}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897267651133245
 MonoBehaviour:
@@ -8165,7 +8876,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897267735374348
 MonoBehaviour:
@@ -8341,7 +9052,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5650897267767698984
 Transform:
@@ -8552,7 +9263,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -8604,7 +9315,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -8785,7 +9496,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 30ea8f46ca8cc37499ad85869f2e9c3a, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -9029,7 +9740,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -9242,6 +9953,7 @@ Transform:
   - {fileID: 5650897267656390459}
   - {fileID: 5650897268950048548}
   - {fileID: 5650897268524869601}
+  - {fileID: 1675591753}
   - {fileID: 5650897267997894311}
   - {fileID: 5650897269569555871}
   - {fileID: 5650897267645535845}
@@ -9296,9 +10008,9 @@ Transform:
   - {fileID: 5650897267508773988}
   - {fileID: 5650897268925335885}
   - {fileID: 5650897268671971813}
-  - {fileID: 5650897269378809299}
+  - {fileID: 1422871792}
   m_Father: {fileID: 5650897268339712308}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897267867261869
 MonoBehaviour:
@@ -9313,7 +10025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 0}
+  start_conversation_when_done: {fileID: 359869718}
   cur_node: 0
   active: 0
   finished_conversation: 0
@@ -9365,7 +10077,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -9400,7 +10112,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -9469,7 +10181,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -10165,7 +10877,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -10217,7 +10929,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -10539,7 +11251,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5650897268009304476
 GameObject:
@@ -10589,7 +11301,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -10609,7 +11321,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -10836,7 +11548,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897268045742453
 MonoBehaviour:
@@ -10854,7 +11566,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -11227,7 +11939,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -11439,7 +12151,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -11474,7 +12186,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -11511,7 +12223,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -11545,7 +12257,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897268177952788
 MonoBehaviour:
@@ -11802,7 +12514,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897268210206504
 MonoBehaviour:
@@ -11817,7 +12529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 0}
+  start_conversation_when_done: {fileID: 359869718}
   cur_node: 0
   active: 0
   finished_conversation: 0
@@ -11868,9 +12580,9 @@ Transform:
   - {fileID: 5650897267554376018}
   - {fileID: 5650897269132566863}
   - {fileID: 5650897268253819294}
-  - {fileID: 5650897269397862652}
+  - {fileID: 1037861645}
   m_Father: {fileID: 5650897268339712308}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897268253819288
 MonoBehaviour:
@@ -12528,7 +13240,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &5650897268318313861
 AudioSource:
@@ -12808,7 +13520,7 @@ MonoBehaviour:
   dialogue_from: 0
   localized_key: 
   text: "Now, of course, not everyone is like that. There are certainly students
-    who spend big at Gorpwill, and occasionally have the money for it \u2014 pardon
+    who spend big at Gorpwill, and occasionally have the money for it\u2014pardon
     me."
   talking_beeps: {fileID: 0}
   darken_all_other_characters: 1
@@ -13028,6 +13740,7 @@ Transform:
   m_Children:
   - {fileID: 5650897267859406731}
   - {fileID: 5650897267718174238}
+  - {fileID: 359869719}
   - {fileID: 5650897269328180436}
   - {fileID: 5650897267651133244}
   - {fileID: 5650897267867261868}
@@ -13069,7 +13782,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &5650897268353828886
 AudioSource:
@@ -13246,7 +13959,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -13298,7 +14011,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -13511,7 +14224,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -13872,9 +14585,9 @@ Transform:
   - {fileID: 5650897268689895461}
   - {fileID: 5650897269341814193}
   - {fileID: 5650897268133125677}
-  - {fileID: 5650897268573878889}
+  - {fileID: 737589165}
   m_Father: {fileID: 5650897268339712308}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897268420816502
 MonoBehaviour:
@@ -13889,7 +14602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 0}
+  start_conversation_when_done: {fileID: 359869718}
   cur_node: 0
   active: 0
   finished_conversation: 0
@@ -14236,7 +14949,7 @@ MonoBehaviour:
   dialogue_from: 0
   localized_key: 
   text: Now, I could go on and on about on-campus services but you've probably been
-    through enough hell using CraneNet to handle your tuition,
+    through enough hell using the Sentinel App to handle your tuition,
   talking_beeps: {fileID: 0}
   darken_all_other_characters: 1
   bring_speaker_to_front: 1
@@ -14423,7 +15136,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -14636,7 +15349,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 30ea8f46ca8cc37499ad85869f2e9c3a, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -14688,7 +15401,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -14740,7 +15453,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -14755,7 +15468,7 @@ GameObject:
   - component: {fileID: 5650897268524869601}
   - component: {fileID: 5650897268524869602}
   m_Layer: 0
-  m_Name: Enter Actor - Brad
+  m_Name: Enter Actor - Brad (USING CAMPUS REP FOR MODEL)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14844,7 +15557,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -14864,7 +15577,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -15107,53 +15820,6 @@ Transform:
   m_Father: {fileID: 5650897269168376966}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5650897268573878888
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5650897268573878889}
-  - component: {fileID: 5650897268573878890}
-  m_Layer: 0
-  m_Name: Change Conversation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5650897268573878889
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650897268573878888}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5650897268420816501}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5650897268573878890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650897268573878888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dba8ebeeac6fa14d90358a78deed2dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  go_to_next_node: 1
-  executed_from_load: 0
-  conversation_to_start: {fileID: 5650897267526374276}
 --- !u!1 &5650897268611935557
 GameObject:
   m_ObjectHideFlags: 0
@@ -15202,7 +15868,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 30ea8f46ca8cc37499ad85869f2e9c3a, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -15693,7 +16359,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5650897268681270641
 GameObject:
@@ -15845,7 +16511,7 @@ MonoBehaviour:
   fetch_localized_stat_value: 0
   dialogue_from: 0
   localized_key: 
-  text: Spend money on things you either <i>need</i> or you <i>really<b> really<b></i>
+  text: Spend money on things you either <i>need</i> or you <i>really<b> really</b></i>
     want.
   talking_beeps: {fileID: 0}
   darken_all_other_characters: 1
@@ -15904,7 +16570,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -16867,7 +17533,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -17224,7 +17890,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &5650897268900914036
 AudioSource:
@@ -17401,7 +18067,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -17613,7 +18279,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -17731,7 +18397,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 30ea8f46ca8cc37499ad85869f2e9c3a, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -17783,7 +18449,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -17948,53 +18614,6 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
---- !u!1 &5650897268960444248
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5650897268960444249}
-  - component: {fileID: 5650897268960444250}
-  m_Layer: 0
-  m_Name: Change Conversation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5650897268960444249
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650897268960444248}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5650897269328180436}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5650897268960444250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650897268960444248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dba8ebeeac6fa14d90358a78deed2dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  go_to_next_node: 1
-  executed_from_load: 0
-  conversation_to_start: {fileID: 5650897267526374276}
 --- !u!1 &5650897268967501929
 GameObject:
   m_ObjectHideFlags: 0
@@ -18092,7 +18711,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -18144,7 +18763,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -18357,7 +18976,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -18374,7 +18993,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897269031137497
 MonoBehaviour:
@@ -18392,7 +19011,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -19019,7 +19638,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -19102,7 +19721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 5686119972954536284}
+  start_conversation_when_done: {fileID: 5650897267859406730}
   cur_node: 0
   active: 0
   finished_conversation: 0
@@ -20221,7 +20840,7 @@ MonoBehaviour:
   fetch_localized_stat_value: 0
   dialogue_from: 0
   localized_key: 
-  text: What is your <b>biggest</b> concern? What do you think you'd want to focus
+  text: What are your <b>biggest</b> concerns? What do you think you'd want to focus
     on while at campus?
   talking_beeps: {fileID: 0}
   darken_all_other_characters: 1
@@ -20440,7 +21059,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3cb49b18e730885459235e56f5429471, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -20494,9 +21113,9 @@ Transform:
   - {fileID: 5650897269515869101}
   - {fileID: 5650897267809066203}
   - {fileID: 5650897267804618937}
-  - {fileID: 5650897268960444249}
+  - {fileID: 611132188}
   m_Father: {fileID: 5650897268339712308}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897269328180437
 MonoBehaviour:
@@ -20511,7 +21130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 0}
+  start_conversation_when_done: {fileID: 359869718}
   cur_node: 0
   active: 0
   finished_conversation: 0
@@ -20884,57 +21503,10 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 3ba039f683731b84989782652d67a739, type: 3}
+  new_image: {fileID: 21300000, guid: cae06397e00434790ba2d1da7bada78e, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
---- !u!1 &5650897269378809298
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5650897269378809299}
-  - component: {fileID: 5650897269378809308}
-  m_Layer: 0
-  m_Name: Change Conversation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5650897269378809299
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650897269378809298}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5650897267867261868}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5650897269378809308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650897269378809298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dba8ebeeac6fa14d90358a78deed2dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  go_to_next_node: 1
-  executed_from_load: 0
-  conversation_to_start: {fileID: 5650897267526374276}
 --- !u!114 &5650897269388206788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20951,7 +21523,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -21035,57 +21607,10 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: f3be58328d010437f8ea7396fdebefad, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
---- !u!1 &5650897269397862643
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5650897269397862652}
-  - component: {fileID: 5650897269397862653}
-  m_Layer: 0
-  m_Name: Change Conversation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5650897269397862652
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650897269397862643}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5650897268210206511}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5650897269397862653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650897269397862643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dba8ebeeac6fa14d90358a78deed2dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  go_to_next_node: 1
-  executed_from_load: 0
-  conversation_to_start: {fileID: 5650897267526374276}
 --- !u!82 &5650897269454866560
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21438,7 +21963,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5650897269498542234
 MonoBehaviour:
@@ -21456,7 +21981,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: 35ba9f9247aaa4ebab532b4abac634b7, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -21830,7 +22355,7 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name_from: 0
   actor_name: Brad
-  new_image: {fileID: 21300000, guid: 1fcce0a8f1d520b4b91f80314036ebec, type: 3}
+  new_image: {fileID: 21300000, guid: b23b392c5755941909678c496d311c33, type: 3}
   fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
@@ -22154,7 +22679,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5650897267859406731}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5686119972142338316
 Transform:
